@@ -24,6 +24,5 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
-          name: github-pages-${{ github.run_number }}
       - uses: actions/deploy-pages@v4    # line 27: update from v2 to v4
         id: deployment
